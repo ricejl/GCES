@@ -18,15 +18,37 @@
 
   <body>
     <!-- navbar -->
-    <nav class="container-fluid">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col">
-          <!-- TODO nav bar -->
+        <div class="col p-0">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">GCES</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav">
+                <a class="nav-item nav-link pr-4" href="#">Features</a>
+                <a class="nav-item nav-link pr-4" href="#">Pricing</a>
+              </div>
+            </div>
+          </nav>
         </div>
       </div>
-    </nav>
+    </div>
 
-    <!-- header SECTION -->
+    <!-- HEADER SECTION -->
     <header class="container-fluid">
       <div class="row">
         <div
@@ -41,7 +63,7 @@
     <!-- main content -->
     <main class="container-fluid">
       <!-- SKILLS SECTION -->
-      <div class="row">
+      <div class="row mb-5">
         <div class="col">
           <h2>Skills</h2>
           <hr />
@@ -61,7 +83,7 @@
           <hr />
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-5">
         <div class="col">
           Dets about business. Lorem ipsum dolor sit amet, consectetur
           adipisicing elit. Ad debitis recusandae eos nesciunt reprehenderit,
@@ -84,14 +106,14 @@
           <hr />
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-5">
         <div class="col">
           <!-- contact form -->
         </div>
       </div>
-      <div class="row">
+      <div class="row mb-2">
         <div class="col">
-          <img src="//placehold.it/1000x400" alt="" />
+          <img class="img-fluid" src="//placehold.it/1000x400" alt="" />
         </div>
       </div>
     </main>
@@ -99,8 +121,9 @@
     <!-- footer -->
     <footer class="container-fluid">
       <div class="row">
-        <div class="col">
+        <div class="col p-5 text-center text-light bg-dark">
           <!-- TODO build footer -->
+          <p>Powered by Rice</p>
         </div>
       </div>
     </footer>
